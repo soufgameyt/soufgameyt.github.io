@@ -1,0 +1,93 @@
+{
+  "repo": {
+    "name": "Bad Repository",
+    "identifier": "com.soufgame.repoFlux",
+    "subtitle": "A bad looking Repo with a lot of shortcuts",
+    "website": "https://nezus.bio.link",
+    "tintColor": "#1a2cc2",
+    "featuredApps": [
+        "com.safari.plus"
+    ]
+  },
+  "apps": [
+    {
+      "name": "Safari Modded",
+      "bundleIdentifier": "com.safari.plus"
+      "githubOwner": "soufgameyt",
+      "githubRepository": "Flux Repo",
+      "skipPrerelease": true,
+      "developerName": "soufgame",
+      "subtitle": "Virtual machines for iOS (with JIT support)",
+      "localizedDescription": "Safari Modded is the best safari shortcut when you can edit pages get developer console autoscroll and a lot more ",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "tintColor": "#1a2cc2",
+      "minOSVersion": "14.0",
+      "appPermissions": {
+            },
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ]
+    },
+    {
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "filename": "UTM-SE.ipa",
+      "githubOwner": "utmapp",
+      "githubRepository": "UTM",
+      "skipPrerelease": true,
+      "developerName": "osy",
+      "subtitle": "Virtual machines for iOS (without JIT support)",
+      "localizedDescription": "UTM is a full featured virtual machine host for iOS. In short, it allows you to run Windows, Android, and more on your iPhone and iPad.\nThis version runs on all iOS 14+ devices but lacks JIT support and is slower than regular UTM.\n\n\nMore information at https://getutm.app/\n\nFeatures:\n\n• Emulate any Processor\n30+ processors supported by qemu including x86_64, ARM64, and RISC-V\n• Run any Operating System\nWindows, Linux, and more natively and securely on iOS within an App\n• Fast Emulation\nPara-virtualization with SPICE and JIT compilation with TCG\n• High Compatibility\niOS 14+ supported. Works on iPhone and iPad. No jailbreak needed\n• Free and Open Source\nUTM and its dependencies are all free and open source\n• Easy to Use\nConfigure and customize your VM in a native UI",
+      "iconURL": "https://alt.getutm.app/icon.png",
+      "tintColor": "#1a2cc2",
+      "minOSVersion": "14.0",
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "com.apple.developer.kernel.increased-memory-limit"
+          },
+          {
+            "name": "com.apple.developer.kernel.extended-virtual-addressing"
+          }
+        ],
+        "privacy": [
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "The virtual machine may access the local network. UTM also uses the local network to communicate with AltServer."
+          },
+          {
+            "name": "LocationAlwaysAndWhenInUse",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "LocationAlways",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "LocationWhenInUse",
+            "usageDescription": "UTM requests location data periodically to ensure the system keeps the background process active. Location data will never leave the device."
+          },
+          {
+            "name": "Microphone",
+            "usageDescription": "Permission is required for any virtual machine to record from the microphone."
+          }
+        ]
+      },
+      "screenshotURLs": [
+        "https://alt.getutm.app/screen0.png",
+        "https://alt.getutm.app/screen1.png",
+        "https://alt.getutm.app/screen2.png",
+        "https://alt.getutm.app/screen3.png",
+        "https://alt.getutm.app/screen4.png",
+        "https://alt.getutm.app/screen5.png",
+        "https://alt.getutm.app/screen6.png"
+      ]
+    }
+  ]
+}
