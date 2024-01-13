@@ -72,11 +72,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>NezusDNS
-
-- Update 1 - New DNS 
-
-- Come With AD Blocker
+	<string>NezusDNS - Update 1 - New DNS - Come With AD Blocker (You can disable)
 </string>
 	<key>PayloadDisplayName</key>
 	<string>NezusHub Anti Revoke DNS</string>
