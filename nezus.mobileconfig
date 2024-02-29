@@ -52,7 +52,7 @@
 <key>PayloadDescription</key>
 <string>NezusDNS - Update 2 - New DNS  </string>
 <key>PayloadDisplayName</key>
-<string>Antirevoke</string>
+<string>NezusDNS │ Best DNS</string>
 <key>PayloadIdentifier</key>
 <string>nezus.cloudflare.warp.com.profile</string>
 <key>PayloadScope</key>
