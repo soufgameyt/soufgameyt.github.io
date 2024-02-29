@@ -13,7 +13,7 @@
 				<string>https://y5orj5gvbz.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>DNS Antirevoke + AD Block</string>
+			<string>DNS Anti Revoke and ad block enabled</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
 			<key>PayloadOrganization</key>
@@ -34,11 +34,11 @@
 				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>DNS AntiRevoke</string>
+			<string>DNS Anti Revoke ad block disabled</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
 			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
+			<string>soufgame</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
@@ -55,12 +55,23 @@
 				<array>
 					<string>ocsp.apple.com</string>
 					<string>ocsp2.apple.com</string>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>appattest.apple.com</string>
+					<string>vpp.itunes.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>gdmf.apple.com</string>
+					<string>guzzoni-apple-com.v.aaplimg.com</string>
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Block Recall (NEW)</string>
+			<string>Block blacklists and revokes</string>
 			<key>PayloadIdentifier</key>
-			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
+			<string>com.nezushub.apple-dns.9bdef781-cae9-499a-b996-6f05939622e4</string>
 			<key>PayloadOrganization</key>
 			<string>khơindvn</string>
 			<key>PayloadType</key>
@@ -72,16 +83,10 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Vũ Văn Khơi ✅ 
-
-- Updated to work with iOS again.
-
-- Allows for AD blocking.
-
-- Allows for customization.
+	<string>NezusDNS - Update 2 - New DNS - Come With AD Blocker (You can disable)
 </string>
 	<key>PayloadDisplayName</key>
-	<string>DNS AntiRevoke Khoindvn</string>
+	<string>NezusHub Anti Revoke DNS</string>
 	<key>PayloadIdentifier</key>
 	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
 	<key>PayloadRemovalDisallowed</key>
