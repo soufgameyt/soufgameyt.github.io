@@ -26,6 +26,7 @@
 <string>axm-app.apple.com</string>
 <string>comm-cohort.ess.apple.com</string>
 <string>comm-main.ess.apple.com</string>
+<string>beacons.ai/samhub</string>
 </array>
 </dict>
 <key>OnDemandRules</key>
