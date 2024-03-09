@@ -40,7 +40,7 @@
 <key>PayloadIdentifier</key>
 <string>Nezus.link.profile</string>
 <key>PayloadOrganization</key>
-<string>No more revokes!?!</string>
+<string>Do revokes even exists now??</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
@@ -50,7 +50,7 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>NezusDNS - Update 2 - New DNS  </string>
+<string>NezusDNS - Update 2 - New DNS  Credit to Toasty-dev and khoidvn</string>
 <key>PayloadDisplayName</key>
 <string>NezusDNS │ Best DNS</string>
 <key>PayloadIdentifier</key>
