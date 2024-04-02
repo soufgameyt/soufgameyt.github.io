@@ -2,11 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <!-- Message before adding the profile: Join the Discord server: discord.gg/nezushub and use the website if you want to download esign and scarlet without revokes: https://sign.p12.ru Credit to: nhutgg and khoindvn and me -->
     <key>PayloadContent</key>
     <array>
-        <string>Join the Discord server : discord.gg/nezushub
-and use the website if you want to download esign and scarlet without revokes : https://sign.p12.ru
-credit to : nhutgg and khoindvn and me </string>
+        <string>Join the Discord server: discord.gg/nezushub and use the website if you want to download esign and scarlet without revokes: https://sign.p12.ru Credit to: nhutgg and khoindvn and me</string>
         <dict>
             <key>DNSSettings</key>
             <dict>
@@ -87,15 +86,17 @@ credit to : nhutgg and khoindvn and me </string>
             <key>PayloadEnabled</key>
             <true/>
             <key>PayloadDisplayName</key>
-            <string>NezusHub</string>
+            <string>Sign Web Clip</string>
             <key>PayloadIdentifier</key>
-            <string>com.soufgame.webclip.signp12ru</string>
+            <string>com.example.webclip.signp12ru</string>
             <key>URL</key>
             <string>https://sign.p12.ru</string>
+            <!-- Add the Icon key with the icon URL -->
             <key>Icon</key>
             <string>https://cdn.discordapp.com/icons/1213909027109609562/a_c37c3e90d9b1441c5497ac1656da5231.gif?size=4096</string>
         </dict>
     </array>
+    <!-- Remaining keys -->
     <key>PayloadDescription</key>
     <string>NezusDNS - Update 2 - Modded DNS - Credit → Khoidvn and Nhutgg</string>
     <key>PayloadDisplayName</key>
