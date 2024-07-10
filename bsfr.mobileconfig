@@ -36,7 +36,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configures web clip</string>
+	<string>The Official NezusHub App!</string>
 	<key>PayloadDisplayName</key>
 	<string>NezusHub App</string>
 	<key>PayloadIdentifier</key>
