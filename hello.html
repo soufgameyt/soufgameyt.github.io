@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>BS pop-up maker</title>
+</head>
+
+<body>
+    <p>Input your settings below</p>
+    <form>
+        <label for="popup">Pop-up text:</label>
+        <br>
+        <input type="text" id="popup" name="popup_text">
+        <br>
+        <label for="url">Display URL:</label>
+        <br>
+        <input type="text" id="url" name="input_url">
+        <br>
+        <br>
+        <input type="submit" value="Open Brawl Stars" onclick="open_bs()">
+    </form>
+    <p>Made by PhoenixFire#6879</p>
+    <script>
+        function open_bs() {
+                  var popup_text = document.getElementById("popup").value;
+                  var input_url = document.getElementById("url").value;
+                  url = "brawlstars://webview?page="+ input_url + "&popup_title=" + popup_text;
+                  location.href = url; 
+              }
+    </script>
+</body>
+
+</html>
